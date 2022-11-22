@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  method="POST" action="connect.php" onsubmit="return validation()">
+       <div class="container1">
+        <div class="form1">
+            <div class="body">
+                <Table>
+                    <tr ><td colspan="2" class="title">REGISTER HERE</td></tr>
+                    <tr>
+                        <td><label class="lab" for="fname">Name</label></td>
+                        <td><input name="name" class="inp" type="text" id="user"></td>
+                    </tr>
+                    <tr><td colspan="2"><span id="userr"></span></td></tr>
+                    <tr>
+                        <td><label class="lab" for="Birth cert no">ID No</label></td>
+                        <td><input name="id_no" class="inp" type="text" id="cert"></td>
+                        
+                    </tr>
+                    <tr><td colspan="2"><span id="certt"></span></td></tr>
+                    <tr>
+                        <td><label class="lab" for="reg no">Reg No</label></td>
+                        <td><input name="reg_no" class="inp" type="text" id="reg"></td>
+                        
+                    </tr>
+                    <tr><td colspan="2"><span id="regg"></span></td></tr>
+                    <tr>
+                        <td><label class="lab" for="DOB">D.O.B</label></td>
+                        <td><input name="DOB" class="inp" type="text"placeholder="dd/mm/yyyy"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="lab" for="address">Address</label></td>
+                        <td><input name="address" class="inp" type="text" id="address"></td>
+                    </tr>
+                    <tr><td colspan="2"><span id="addresss"></span></td></tr>
+                    <!-- <tr>
+                        <td><label class="lab" for=" status">Gender</label></td>
+                        <td> <input name="gender" type="radio" id="status">female</td>  
+                    </tr>
+                    <tr>
+                        <td><label class="lab" for="status"></label></td>
+                        <td> <input name="gender" type="radio" id="status">male</td>
+                    </tr> -->
+                    <tr><td colspan="2"><span id="statuss"></span></td></tr>
+                    <tr>
+                        <td><label for="phone_no">Tel No.</label></td>
+                        <td><input name="tel_no" class="inp" type="number" id="phone" ></td>
+                    </tr>
+                    <tr><td colspan="2"><span id="phonee"></span></td></tr>
+                    <tr>
+                        <td><label class="lab" for="email">Email</label></td>
+                        <td><input name="email" class="inp" type="text" id="email"placeholder="jackie@gmail.com" ></td>   
+                    </tr>
+                    <tr>
+                        <td><label class="lab" for="password">Password</label></td>
+                        <td> <input name="password" class="inp" type="password" placeholder="enter your password"></td>   
+                    </tr>
+                    <tr><td colspan="2"><span id="emaill"></span></td></tr>
+                   
+                   
+                    <tr><td colspan="2"><input type="submit" class="btn1" name="submit" value="submit" required></td></tr>
+                    <tr><td colspan="2"> <a href="index.html" class="signup-text">Login</a></td></tr>
+                </Table>
+            </div>
+           </div>
+        </div>
+       
+    </form>
+
+  <script src="form.js"></script>  
+    
+</body>
+</html>
